@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HW5</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="request.js" defer></script>
+    <script src="updateObjectInArray.js" defer></script>
+    <script src="setPage.js" defer></script>
+  </head>
+  <body>
+    <label for="task-num" class="label-task">Order task: </label>
+    <select id="task-num" class="select-task">
+      <option value="1">Task 1</option>
+      <option value="2">Task 2</option>
+    </select>
+    <h1 class="page-title" id="page-title">Task 1</h1>
+
+    <button class="btn" id="get-all-data-btn">Get all data</button>
+    <button class="btn" id="close-all-data-btn">Close all data</button>
+
+    <h2 class="table-title" id="table1-title">Posts list</h2>
+    <table class="table" id="task1-table">
+      <tr>
+        <th>userId</th>
+        <th>id</th>
+        <th>title</th>
+        <th>body</th>
+      </tr>
+    </table>
+
+    <button class="btn" id="update-object-btn">Update object</button>
+    <div class="content" id="task2-tables">
+      <div>
+        <h2 class="table-title table2-title">Task before</h2>
+        <table class="table" id="task2-before-table">
+          <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>body</th>
+            <th>completed</th>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <h2 class="table-title table2-title">Task after</h2>
+        <table class="table" id="task2-after-table">
+          <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>body</th>
+            <th>completed</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

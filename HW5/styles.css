@@ -1,0 +1,44 @@
+.label-task {
+  font-size: 20px;
+  margin: 20px 5px 0 20px;
+}
+
+.select-task {
+  margin-top: 20px;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.page-title {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.btn {
+  margin: 0 5px 5px 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.table-title {
+  text-align: center;
+}
+
+.table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+tr,
+td,
+th {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
